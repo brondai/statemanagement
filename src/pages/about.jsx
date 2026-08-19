@@ -1,8 +1,6 @@
 import styles from './about.module.css'
 
 // Inline CSS 
-//
-
 // CSS Modules
 // normal css -> css file for every page/component file name -> .module.css
 
