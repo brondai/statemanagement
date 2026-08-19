@@ -1,5 +1,4 @@
-import ProductForm from './components/productForm'
-import ProductList from './components/productList'
+
 
 const App = () => {
 
