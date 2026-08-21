@@ -5,10 +5,12 @@ import { useNavigate } from "react-router"
 const ProductList = () => {
 const navigate = useNavigate()
 
+const apiBaseUrl = import.meta.env.VITE_API_BASE_URL
+
   const [productList, setProductList] = useState([])
 
   const handleDelete = async(id) => {
-    await axios(`https://dummyjson.com/products/${id}`) //template literal
+    await axios(`${apiBaseUrl}/${id}`) //template literal
   }
 
   useEffect(() => {
